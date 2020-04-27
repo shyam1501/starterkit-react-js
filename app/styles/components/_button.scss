@@ -1,0 +1,12 @@
+.button {
+  background: $danger-red;
+  border: none;
+  color: $off-white;
+  display: inline-block;
+  font-size: $font-size-small;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

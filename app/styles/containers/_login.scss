@@ -1,0 +1,14 @@
+.login-container{
+    width: 50rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 0.3rem;
+    padding: $l-size;
+    text-align: center;
+    background-color: $off-white;
+
+    &__title{
+        font-weight: 500;
+        font-size: $font-size-large;
+        color: $dark-grey;
+    }
+}

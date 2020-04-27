@@ -1,0 +1,12 @@
+{
+    "translations": {
+        "LOGIN_PAGE": {
+            "title": "Click below and wait for a few seconds to login",
+            "buttonText": "Login"
+        },
+        "HOME_PAGE": {
+            "title": "Click here to increase the counter:",
+            "buttonText": "Save to store"
+        }
+    }
+}
