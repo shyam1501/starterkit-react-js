@@ -31,6 +31,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "aws s3 sync build/ s3://starterkit-react-js --acl public-read",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "webpack": "webpack",
@@ -92,7 +93,7 @@
     "style-loader": "^1.1.4",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "url-loader": "^4.1.0",
-    "webpack": "^4.43.0",
+    "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.2.2"

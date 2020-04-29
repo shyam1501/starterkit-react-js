@@ -19,7 +19,7 @@ module.exports = ({ mode } = { mode: "production" }) => {
 
     return webpackMerge({
         mode,
-        entry: "./app/index.js",
+        entry: "./src/index.js",
         devServer: {
             open: true,
             hot: true,
