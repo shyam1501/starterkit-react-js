@@ -7,7 +7,6 @@ import { btnData } from '__tests__/staticProps/ButtonData';
 Enzyme.configure({ adapter: new Adapter() });
 
 const handleClickSpy = jest.fn();
-const handleClick = handleClickSpy;
 
 describe('Button', () => {
   it('renders correctly', () => {

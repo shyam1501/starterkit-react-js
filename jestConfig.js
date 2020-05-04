@@ -6,7 +6,7 @@ module.exports = {
   rootDir: '.',
   verbose: true,
   watchman: false,
-  moduleFileExtensions: [...defaults.moduleFileExtensions, 'js', 'jsx'],
+  moduleFileExtensions: [...defaults.moduleFileExtensions, 'js'],
   moduleDirectories: ['node_modules', __dirname],
   collectCoverage: true,
   coverageReporters: ['json'],
